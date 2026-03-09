@@ -22,7 +22,39 @@ EX:  -> if i "click on Youtube icon" then the output should be "i'll be sent to 
 properly and everything works as intended, but the UX is not desired by the application users. This can be reported and updated by the developers to 
 improve the quality of the the user experience. This can only be detected by the manual tester during exploratory testing.
 
+|-----------------------------------------------------------------------------------|
+|                   PROS                     |                CONS                  |
+|-----------------------------------------------------------------------------------|
+| Humans can catch more UI/UX issues         | Is more time consumming              |
+| Better for exploratory testing             | More susceptible to human error      |
+| No need for sperial tools or framework     | Not scalable to complex test suites  |
+|-----------------------------------------------------------------------------------| 
+
+
  *Automation testing*
    - Uses specialized test tools to automatically follow scripts in order to execute test cases
    - Uses those test tools to run repetitive tests faster and more consistent than an manual tester without the fear of human error.
-  
+
+|------------------------------------------------------------------------------------------------------------------------|
+|                         PROS                          |                               CONS                             |
+|------------------------------------------------------------------------------------------------------------------------|
+| Faster in executing multiple tests                    | Requires more effort to setup the tools and write scripts      |
+| Human error is no longer an issue to worry about      | The scripts must be updated contantly as the software changes  |
+| Supports larger test suits and complex situations     | The scripts follow a specific path, without noticing other     |
+| Better for CI/CD pipelines for continuous testing     | aesthetic issues that might be encountered                     |
+|------------------------------------------------------------------------------------------------------------------------| 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
