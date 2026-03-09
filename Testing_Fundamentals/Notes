@@ -2,7 +2,7 @@ I'll use this Notes file to document what i learned about the software testing f
 understanded them and sometimes i'll use the definitions found in the courses i follow.
 
 
------------------------// What is software testing? //-----------------------
+--------------------------// What is software testing? //--------------------------
 
  - The process of evaluating a software app to ensure that it meets the requirements, behaves as expected and does not have any other issues.
  - We detect issues and bugs before the application goes live, we validate the requirements and overall improve the quality of the software.
@@ -12,7 +12,7 @@ output of an action (if input is xxxx then output should be yyy).
 EX:  -> if i "click on Youtube icon" then the output should be "i'll be sent to the home page"
      -> if i "enter the wrong passord" then the output shold be "i receive an error telling me i entered the wrong password" 
 
-------------------// Manual testing vs Automation testing //------------------
+---------------------// Manual testing vs Automation testing //---------------------
 
  *Manual testing* 
    - Manual testing is a process where human testers create and execute test cases manually without the help of automated scripts.
@@ -43,6 +43,71 @@ improve the quality of the the user experience. This can only be detected by the
 | Supports larger test suits and complex situations     | The scripts follow a specific path, without noticing other     |
 | Better for CI/CD pipelines for continuous testing     | aesthetic issues that might be encountered                     |
 |------------------------------------------------------------------------------------------------------------------------| 
+
+
+------------------// What is Software Development Life Cycle (SDLC) //------------------ 
+
+ - Is the process a software application goes through during development
+ 
+          |----------|         |----------|         |--------|
+|-------> | Planning | ------> | Analysis | ------> | Design | --------|
+|         |----------|         |----------|         |--------|         |    
+|                                                                      |
+|                                                                      |
+|                 SOFTWARE DEVELOPMENT LIFE CYCLE                      |
+|                                                                      |
+|                                                                      | 
+|                           |-------------|                            |
+|      |-------------|      |    Test     |      |----------------|    |
+|----- | Maintanance | <--- |      &      | <--- | Implementation | <--|
+       |-------------|      | Integration |      |----------------|
+                            |-------------|
+
+ - SDLC Methodologies: 
+
+*Agile* 
+
+ - An iterative approach to software development where requirements and solutions evolve through collaboration
+ - Implmenting the app and the tests start to go at the same time as planning and the analysis comparing the intended results witht he test results
+
+*Waterfall*
+
+ - A linear, sequential approach where each phase of development must be completed before moving to the next.
+ - There are fixed requirements from the start. 
+ - Easier to manage for small projects with well designed features, but is not good for projects with changing requirements, resulting in increased 
+cost for development.
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
