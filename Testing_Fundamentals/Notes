@@ -1,26 +1,32 @@
-I'll use this Notes file to document what i learned about the software testing fundamentals, i'll use mostly my own words to describe things the way I 
-understanded them and sometimes i'll use the definitions found in the courses i follow.
+I'll use this Notes file to document what i learned about the software testing fundamentals, i'll use mostly my own
+words to describe things the way I understanded them and sometimes i'll use the definitions found in the courses i
+follow.
 
 
 --------------------------// What is software testing? //--------------------------
 
- - The process of evaluating a software app to ensure that it meets the requirements, behaves as expected and does not have any other issues.
- - We detect issues and bugs before the application goes live, we validate the requirements and overall improve the quality of the software.
- - We create and execute test cases in order to verify everything. Test cases are like a validating list of if cases to describe what should be the 
-output of an action (if input is xxxx then output should be yyy).  
+ - The process of evaluating a software app to ensure that it meets the requirements, behaves as expected and does not
+  have any other issues.
+ - We detect issues and bugs before the application goes live, we validate the requirements and overall improve the
+ quality of the software.
+ - We create and execute test cases in order to verify everything. Test cases are like a validating list of if cases to
+ describe what should be the output of an action (if input is xxxx then output should be yyy).
 
 EX:  -> if i "click on Youtube icon" then the output should be "i'll be sent to the home page"
-     -> if i "enter the wrong passord" then the output shold be "i receive an error telling me i entered the wrong password" 
+     -> if i "enter the wrong passord" then the output shold be "i receive an error telling me i entered the wrong
+     password"
 
 ---------------------// Manual testing vs Automation testing //---------------------
 
  *Manual testing* 
-   - Manual testing is a process where human testers create and execute test cases manually without the help of automated scripts.
+   - Manual testing is a process where human testers create and execute test cases manually without the help of
+   automated scripts.
    - Focused on the human observation of the interface and experience during the use of the software application
    - Is more susceptible to human error and takes more time to complete multiple tests.
-   - If an application works as intended, it does not mean it is free of bugs or issues to be solved. Sometimes the application follows the test case 
-properly and everything works as intended, but the UX is not desired by the application users. This can be reported and updated by the developers to 
-improve the quality of the the user experience. This can only be detected by the manual tester during exploratory testing.
+   - If an application works as intended, it does not mean it is free of bugs or issues to be solved. Sometimes the
+   application follows the test case properly and everything works as intended, but the UX is not desired by the
+   application users. This can be reported and updated by the developers to improve the quality of the the user
+   experience. This can only be detected by the manual tester during exploratory testing.
 
 |-----------------------------------------------------------------------------------|
 |                   PROS                     |                CONS                  |
@@ -33,16 +39,17 @@ improve the quality of the the user experience. This can only be detected by the
 
  *Automation testing*
    - Uses specialized test tools to automatically follow scripts in order to execute test cases
-   - Uses those test tools to run repetitive tests faster and more consistent than an manual tester without the fear of human error.
+   - Uses those test tools to run repetitive tests faster and more consistent than an manual tester without the fear of
+   human error.
 
-|------------------------------------------------------------------------------------------------------------------------|
-|                         PROS                          |                               CONS                             |
-|------------------------------------------------------------------------------------------------------------------------|
-| Faster in executing multiple tests                    | Requires more effort to setup the tools and write scripts      |
-| Human error is no longer an issue to worry about      | The scripts must be updated contantly as the software changes  |
-| Supports larger test suits and complex situations     | The scripts follow a specific path, without noticing other     |
-| Better for CI/CD pipelines for continuous testing     | aesthetic issues that might be encountered                     |
-|------------------------------------------------------------------------------------------------------------------------| 
+|---------------------------------------------------------------------------------------------------------------------|
+|                         PROS                        |                               CONS                            |
+|---------------------------------------------------------------------------------------------------------------------|
+| Faster in executing multiple tests                  | Requires more effort to setup the tools and write scripts     |
+| Human error is no longer an issue to worry about    | The scripts must be updated contantly as the software changes |
+| Supports larger test suits and complex situations   | The scripts follow a specific path, without noticing other    |
+| Better for CI/CD pipelines for continuous testing   | aesthetic issues that might be encountered                    |
+|---------------------------------------------------------------------------------------------------------------------|
 
 
 ------------------// What is Software Development Life Cycle (SDLC) //------------------ 
@@ -68,14 +75,15 @@ improve the quality of the the user experience. This can only be detected by the
 *Agile* 
 
  - An iterative approach to software development where requirements and solutions evolve through collaboration
- - Implmenting the app and the tests start to go at the same time as planning and the analysis comparing the intended results witht he test results
+ - Implmenting the app and the tests start to go at the same time as planning and the analysis comparing the intended
+ results witht he test results
 
 *Waterfall*
 
  - A linear, sequential approach where each phase of development must be completed before moving to the next.
  - There are fixed requirements from the start. 
- - Easier to manage for small projects with well designed features, but is not good for projects with changing requirements, resulting in increased 
-cost for development.
+ - Easier to manage for small projects with well designed features, but is not good for projects with changing
+ requirements, resulting in increased cost for development.
 
  
 
